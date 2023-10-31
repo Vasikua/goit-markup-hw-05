@@ -491,6 +491,7 @@ ol {
 
 .footer-container-media {
   max-width: 208px;
+  margin-right: 80px;
 }
 .footer-social-media {
   color: #ffffff;
@@ -532,4 +533,37 @@ ol {
 
 .footer-social-list-link-a:focus {
   background-color: #31d0aa;
+}
+
+/*  ########################### footer form ##################################*/
+.footer-form-send-form {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.footer-form-send-form label {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.footer-form-send-form-button {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
 }
