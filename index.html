@@ -405,7 +405,13 @@
                         Subscribe
                         <input type="email" name="e-mail" placeholder="E-mail">
                     </label>
-                    <button class="footer-form-send-form-button" type="submit">Subscribe</button>
+
+                    <button class="footer-form-send-form-button" type="submit">
+                        <Span class="footer-form-send-form-button-text">Subscribe</Span>
+                        <svg class="footer-form-send-form-button-subscrib-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-subscrib-icon"></use>
+                        </svg> 
+                    </button>
                 </form>
             </div>
 
@@ -491,9 +497,15 @@
                     placeholder="text input"></textarea>
                 </div>
                 <div>
-                    <input class=" review-form-field-checkbox"  id="user-policy" type="checkbox" value="true"  required>
-                    <label class=" review-form-field-label" for="user-policy">I accept the terms and conditions of the 
-                        <a  class="policy-link" href="">Privacy Policy</a>
+                    <input class=" review-form-field-checkbox visually-hidden "  id="user-policy" type="checkbox" value="true"  required>
+                    <label class=" review-form-field-label-checkbox" for="user-policy">
+                        <span class="review-form-checkbox-own">
+                            <svg class="review-form-checkbox-own-icon">
+                                <use href="./images/icons.svg#icon-checkbox"  width="15" height="15"></use>
+                            </svg>
+                        </span>
+                         I accept the terms and conditions of the 
+                        <a  class="review-form-field-label-checkbox-policy-link" href="">Privacy Policy</a>
                     </label>
                 </div>
                 <button class="form-review-button" type="submit">Send</button>
