@@ -536,11 +536,13 @@ ol {
 }
 
 /*  ########################### footer form ##################################*/
+
 .footer-form-send-form {
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
+
 .footer-form-send-title {
   display: flex;
   flex-direction: column;
@@ -552,18 +554,22 @@ ol {
   margin-bottom: 16px;
   color: #ffffff;
 }
+
 .footer-form-send-form-label-input {
   width: 264px;
   height: 40px;
   font-size: 12px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.6;
   letter-spacing: 0.04em;
   border-radius: 4px;
+  padding-left: 16px;
+  background-color: transparent;
   color: #ffffff;
   border: 1px solid#ffffff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
+
 .footer-form-send-form-label-input::placeholder {
   color: #ffffff;
 }
@@ -585,6 +591,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .footer-form-send-form-button-subscrib-icon {
