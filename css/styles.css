@@ -677,7 +677,7 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .review-form-field-label {
@@ -702,7 +702,7 @@ ol {
 }
 
 .review-form-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-input-wrapper {
@@ -726,9 +726,7 @@ ol {
 .review-form-field-input:focus + .review-form-field-icon {
   fill: #4d5ae5;
 }
-.review-form-wrapper {
-  margin-bottom: 8px;
-}
+
 .review-form-comment {
   width: 100%;
   height: 120px;
