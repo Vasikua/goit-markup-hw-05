@@ -581,7 +581,6 @@ ol {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   border: none;
   color: #ffffff;
@@ -594,11 +593,11 @@ ol {
   cursor: pointer;
 }
 
-.footer-form-button-subscrib-icon {
+.footer-form-button-icon {
   margin-left: 16px;
 }
 
-.footer-form-send-form-button-text {
+.footer-form-button-text {
   display: block;
 }
 /* ================== form style ============================== */
