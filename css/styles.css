@@ -560,14 +560,14 @@ ol {
   height: 40px;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
   padding-left: 16px;
   background-color: transparent;
   color: #ffffff;
   border: 1px solid#ffffff;
-  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-form-send-form-label-input::placeholder {
