@@ -783,6 +783,7 @@ ol {
   justify-content: center;
   align-items: center;
   fill: #f4f4fd;
+  stroke-width: 1px;
 }
 
 .review-form-field-checkbox:checked
@@ -790,7 +791,7 @@ ol {
   .review-form-checkbox-own {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
+  stroke: #000000;
 }
 
 .form-review-button {
